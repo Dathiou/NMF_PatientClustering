@@ -1,6 +1,4 @@
-/**
- * @author Hang Su
- */
+
 package edu.gatech.cse8803.features
 
 import edu.gatech.cse8803.model.{LabResult, Medication, Diagnostic}

@@ -1,10 +1,5 @@
 package edu.gatech.cse8803.clustering
 
-/**
-  * @author Hang Su <hangsu@gatech.edu>
-  */
-
-
 
 import breeze.linalg.{DenseVector => BDV, DenseMatrix => BDM, sum}
 import breeze.linalg._

@@ -1,6 +1,4 @@
-/**
- * @author Hang Su <hangsu@gatech.edu>.
- */
+
 
 package edu.gatech.cse8803.clustering
 

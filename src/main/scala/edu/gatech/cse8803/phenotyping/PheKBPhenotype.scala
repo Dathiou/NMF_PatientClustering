@@ -1,7 +1,3 @@
-/**
-  * @author Hang Su <hangsu@gatech.edu>,
-  * @author Sungtae An <stan84@gatech.edu>,
-  */
 
 package edu.gatech.cse8803.phenotyping
 
