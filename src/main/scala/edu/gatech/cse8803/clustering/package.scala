@@ -42,7 +42,8 @@ package object clustering {
   def fromBreeze(breeze: BM[Double]): Matrix = {
     breeze match {
       case dm: BDM[Double] =>
-        new DenseMatrix(dm.rows, dm.cols, dm.data)
+        val dmt = dm.isTranspose
+        new DenseMatrix(dm.rows, dm.cols, dm.data,dm.isTranspose)
       case sm: BSM[Double] =>
         // There is no isTranspose flag for sparse matrices in Breeze
         new SparseMatrix(sm.rows, sm.cols, sm.colPtrs, sm.rowIndices, sm.data)
